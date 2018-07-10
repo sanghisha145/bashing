@@ -1,0 +1,2 @@
+2 floats can't be divided in bash \n
+Either convert into integers or use $ echo print $var1/$var2 | python

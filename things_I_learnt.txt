@@ -1,2 +1,8 @@
-2 floats can't be divided in bash \n
+2 floats can't be divided in bash
 Either convert into integers or use $ echo print $var1/$var2 | python
+
+AWK command is very important if need to perform string operations like reverse, get substring at particular index etc
+
+$ awk -v RS='[)\n]' 1  ::::::: it acts as a delimiter at ')' and prints in new line
+$ awk '/<keyword>/'  :::::: it only chooses string from array of strings which contain 'keyword' 
+$ awk '{print $2}'  :::::: when we print any command and want only specific column, we can use awk along with column number
